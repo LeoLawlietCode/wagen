@@ -19,7 +19,7 @@
       $_SESSION['user_id'] = $results['id'];
       header("Location: /wagen");
     } else {
-      $message = 'Sorry, those credentials do not match';
+      $message = 'Las credenciales son incorrectas';
     }
   }
 
@@ -29,7 +29,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Login</title>
+    <title>Iniciar sesión</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e3617513b6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">

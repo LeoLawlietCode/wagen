@@ -33,10 +33,10 @@
   </head>
   <body>
     <?php if(!empty($user)): ?>
-      <br> Welcome. <?= $user['email']; ?>
+      <br> Bienvenido, <?= $user['email']; ?>
       <br>You are Successfully Logged In
       <a href="logout.php">
-        Logout
+        Salir
       </a>
     <?php else: ?>
       <?php require 'partials/header.php' ?>
@@ -62,29 +62,6 @@
                 </div>
                 <div class="pelicula-scroll">
                     <img src="sources/p_laberinto.jpg" alt="">
-                </div>
-                <div class="pelicula-scroll">
-                    <img src="sources/leocine/doctor_strange.jpg" alt="">
-      
-                </div>
-                <div class="pelicula-scroll">
-                    <img src="sources/leocine/capitan_america_2.jpg" alt="">
-        
-                </div>
-                <div class="pelicula-scroll">
-                    <img src="sources/leocine/spider_man.jpg" alt="">
-                </div>
-                <div class="pelicula-scroll">
-                    <img src="sources/leocine/thor.jpg">
-                </div>
-                <div class="pelicula-scroll">
-                    <img src="sources/leocine/guardianes_galaxia.jpg" alt="">
-                </div>
-                <div class="pelicula-scroll">
-                    <img src="sources/leocine/ant-man-el-hombre-hormiga.jpg" alt="">
-                </div>
-                <div class="pelicula-scroll pelicula-scroll--ultimo">
-                    <img src="sources/leocine/thor_ragnarok.jpg" alt="">
                 </div>
             </aside>
           </section>

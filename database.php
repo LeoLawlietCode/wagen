@@ -3,7 +3,7 @@
 $server = 'localhost:8889';
 $username = 'root';
 $password = 'root';
-$database = 'Universia';
+$database = 'php_login_database';
 
 try {
   $conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);

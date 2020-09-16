@@ -106,8 +106,8 @@ input[type="submit"] {
       font-size: 40px;
       color: white;
       position: absolute;
-      top: 10em;
-      left: 10em;
+      top: 1em;
+      left: 1em;
   }
   
   /* Header */
