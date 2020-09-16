@@ -52,9 +52,42 @@
         </div>
       </section>
 
-      <section>
+      <section class="proyecta-carro--main">
         <div class="proyecta-carro">
-          <img class="" src="sources/carro_proyecta.png" alt="">
+          <img class="carro-proyecta" src="sources/carro_proyecta.png" alt="">
+          <section class="horizontal-scroll--main">
+            <aside class="horizontal-scroll--display">
+                <div class="pelicula-scroll pelicula-scroll--primero">
+                    <img src="sources/p_wallstreet.jpg" alt="">
+                </div>
+                <div class="pelicula-scroll">
+                    <img src="sources/p_laberinto.jpg" alt="">
+                </div>
+                <div class="pelicula-scroll">
+                    <img src="sources/leocine/doctor_strange.jpg" alt="">
+      
+                </div>
+                <div class="pelicula-scroll">
+                    <img src="sources/leocine/capitan_america_2.jpg" alt="">
+        
+                </div>
+                <div class="pelicula-scroll">
+                    <img src="sources/leocine/spider_man.jpg" alt="">
+                </div>
+                <div class="pelicula-scroll">
+                    <img src="sources/leocine/thor.jpg">
+                </div>
+                <div class="pelicula-scroll">
+                    <img src="sources/leocine/guardianes_galaxia.jpg" alt="">
+                </div>
+                <div class="pelicula-scroll">
+                    <img src="sources/leocine/ant-man-el-hombre-hormiga.jpg" alt="">
+                </div>
+                <div class="pelicula-scroll pelicula-scroll--ultimo">
+                    <img src="sources/leocine/thor_ragnarok.jpg" alt="">
+                </div>
+            </aside>
+          </section>
         </div>
       </section>
 
