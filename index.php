@@ -21,13 +21,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Welcome to you WebApp</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e3617513b6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="sources/favicon.png">
+    <?php if(!empty($user)): ?>
+    <title>Wagen</title>
+    <?php else: ?>
+    <title>Las mejores peliculas desde tu auto - Wagen</title>
+    <?php endif; ?>
   </head>
   <body>
-    <?php require 'partials/header.php' ?>
-
     <?php if(!empty($user)): ?>
       <br> Welcome. <?= $user['email']; ?>
       <br>You are Successfully Logged In
@@ -35,10 +39,25 @@
         Logout
       </a>
     <?php else: ?>
-      <h1>Please Login or SignUp</h1>
+      <?php require 'partials/header.php' ?>
+      <section class="section-principal">
+        <div class="container-p container-p--titulo">
+          <h1>Las mejores series y películas en la comodidad de tu AUTO</h1>
+          <h2>Únete a la comunidad de autocine <b>wagen</b></h2>
+          <a href="login.php" class="btn btn--rojo">Iniciar sesión</a>
+          <a href="signup.php" class="btn">Registrarse</a>
+        </div>
+        <div class="container-p container-p--imagen">
+          <img src="sources/bg_banner_principal.png" alt="">
+        </div>
+      </section>
 
-      <a href="login.php">Login</a> or
-      <a href="signup.php">SignUp</a>
+      <section class="proyecta-carro">
+         <div>
+           <img src="sources/carro_proyecta.png" alt="">
+         </div>
+      </section>
+
     <?php endif; ?>
   </body>
 </html>
