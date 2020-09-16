@@ -25,6 +25,7 @@
     <title>SignUp</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="sources/favicon.png">
   </head>
   <body>
     <?php if(!empty($message)): ?>
@@ -38,7 +39,7 @@
       <input name="email" type="text" placeholder="Enter your email">
       <input name="password" type="password" placeholder="Enter your Password">
       <input name="confirm_password" type="password" placeholder="Confirm Password">
-      <input type="submit" value="Submit">
+      <input type="submit" value="Submit" class="btn--rojo">
     </form>
 
   </body>

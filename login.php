@@ -31,20 +31,26 @@
     <meta charset="utf-8">
     <title>Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e3617513b6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="sources/favicon.png">
   </head>
   <body>
+    <a href="index.php">
+      <i class="fas fa-arrow-left flecha"></i>
+    </a>
+    
     <?php if(!empty($message)): ?>
       <p> <?= $message ?></p>
     <?php endif; ?>
-
-    <h1>Login</h1>
-    <span>or <a href="signup.php">SignUp</a></span>
+    <img src="sources/logo.png" class="img-logo">
+    <h1>Inciar Sesión</h1>
+    <span>o <a href="signup.php">Crear cuenta</a></span>
 
     <form action="login.php" method="POST">
-      <input name="email" type="text" placeholder="Enter your email">
-      <input name="password" type="password" placeholder="Enter your Password">
-      <input type="submit" value="Submit">
+      <input name="email" type="text" placeholder="Escribe tu Email">
+      <input name="password" type="password" placeholder="Escribe tu Password">
+      <input type="submit" value="Entrar" class="btn--rojo">
     </form>
   </body>
 </html>

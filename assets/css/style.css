@@ -67,29 +67,47 @@ b {
   /* Input Forms*/
   input[type="text"], input[type="password"]{
     outline: none;
-    padding: 20px;
+    padding: 15px 20px;
     display: block;
     width: 300px;
-    border-radius: 3px;
+    border-radius: 5px;
     border: 1px solid #eee;
     margin: 20px auto;
     color: black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 input[type="submit"] {
-    padding: 10px;
-    color: #fff;
-    background: #0098cb;
-    width: 320px;
-    margin: 20px auto;
-    margin-top: 0;
-    border: 0;
-    border-radius: 3px;
-    cursor: pointer;
-    color: black;
+    color: white;
+    background: #FC4E67;
+    border: none;
+    border-radius: 5px;
+    width: 350px;
+    padding: 15px 30px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
   }
   input[type="submit"]:hover {
-    background-color: #00b8eb;
+    background: #fc4e68af;
+  }
+
+  .img-logo {
+      width: 400px;
+      margin-top: 30px;
+  }
+
+  .flecha {
+      font-size: 40px;
+      color: white;
+      position: absolute;
+      top: 10em;
+      left: 10em;
   }
   
   /* Header */
@@ -207,6 +225,7 @@ header nav a:hover {
 }
 .proyecta-carro {
     margin-top: 10em;
+    margin-bottom: 10em;
     display: block;
     /* height: 250px; */
     position: relative;
