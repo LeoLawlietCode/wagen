@@ -52,10 +52,10 @@
         </div>
       </section>
 
-      <section class="proyecta-carro">
-         <div>
-           <img src="sources/carro_proyecta.png" alt="">
-         </div>
+      <section>
+        <div class="proyecta-carro">
+          <img class="" src="sources/carro_proyecta.png" alt="">
+        </div>
       </section>
 
     <?php endif; ?>

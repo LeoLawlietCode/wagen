@@ -164,7 +164,8 @@ header nav a:hover {
 /* Body Principal */
 .section-principal {
     margin-top: 280px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    height: 460px;
 }
 
 .container-p--titulo {
@@ -195,7 +196,9 @@ header nav a:hover {
 
 /* Carro que proyecta peliculas */
 .proyecta-carro {
-    margin-top: 20px;
+    margin-top: 10em;
+    display: block;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
